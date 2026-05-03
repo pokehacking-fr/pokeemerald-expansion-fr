@@ -182,8 +182,8 @@ const u8 gText_EmptyString3[] = _("");
 
 static const u8 sText_TwoInGameTrainersDefeated[] = _("{B_TRAINER1_NAME_WITH_CLASS} et {B_TRAINER2_NAME_WITH_CLASS}\nont perdu!\p");
 // New battle strings.
-const u8 gText_drastically[] = _("énormément ");
-const u8 gText_severely[] = _("énormément ");
+const u8 gText_drastically[] = _( "énormément");
+const u8 gText_severely[] = _(" énormément");
 static const u8 sText_TerrainReturnedToNormal[] = _("Le terrain revient à la normale!"); // Unused
 
 const u8 *const gBattleStringsTable[STRINGID_COUNT] =
@@ -374,8 +374,8 @@ const u8 *const gBattleStringsTable[STRINGID_COUNT] =
     [STRINGID_PKMNPREVENTSSTATLOSSWITH]             = COMPOUND_STRING("Le talent {B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} empêche les baisses de stats!"),
     [STRINGID_PKMNHURTSWITH]                        = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} est blessé par le talent {B_BUFF1} de {B_DEF_NAME_WITH_PREFIX2}!"),
     [STRINGID_PKMNTRACED]                           = COMPOUND_STRING("Il a calqué le talent {B_BUFF2} de {B_BUFF1}!"),
-    [STRINGID_STATSHARPLY]                          = gText_StatSharply,
-    [STRINGID_STATHARSHLY]                          = COMPOUND_STRING("beaucoup "),
+    [STRINGID_STATSHARPLY]                          = COMPOUND_STRING(" beaucoup"),
+    [STRINGID_STATHARSHLY]                          = COMPOUND_STRING(" beaucoup"),
     [STRINGID_ATTACKERSSTATROSE]                    = COMPOUND_STRING("{B_BUFF1} de {B_ATK_NAME_WITH_PREFIX} augmente{B_BUFF2}!"),
     [STRINGID_DEFENDERSSTATROSE]                    = gText_DefendersStatRose,
     [STRINGID_SCRIPTINGSTATROSE]                    = COMPOUND_STRING("{B_BUFF1} de {B_SCR_NAME_WITH_PREFIX} augmente{B_BUFF2}!"),
