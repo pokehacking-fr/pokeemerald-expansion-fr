@@ -1117,9 +1117,9 @@ static void GetOpponentIntroSpeech2(void)
     SetFacilityPtrsGetLevel();
 
     if (gSpecialVar_0x8005)
-        trainerId = gTrainerBattleOpponent_B;
+        trainerId = TRAINER_BATTLE_PARAM.opponentB;
     else
-        trainerId = gTrainerBattleOpponent_A;
+        trainerId = TRAINER_BATTLE_PARAM.opponentA;
 
     if (trainerId == TRAINER_EREADER)
         FrontierSpeechToString2(gSaveBlock2Ptr->frontier.ereaderTrainer.greeting);
