@@ -649,7 +649,7 @@ const struct BattleFrontierTrainer gSlateportBattleTentTrainers[NUM_BATTLE_TENT_
         .facilityClass = FACILITY_CLASS_POKEFAN_F,
         .trainerName = _("JANY"),
         .speechBefore = {EC_WORD_I_AM, EC_WORD_MC, EC_WORD_WONDER, EC_WORD_A, EC_WORD_CENTER, EC_WORD_EXCL},
-        .speechWin = {EC_WORD_IT_S, EC_WORD_SERIOUS, EC_WORD_AND, EC_WORD_IT_S, EC_MOVE(SMELLING_SALT), EC_WORD_EXCL},
+        .speechWin = {EC_WORD_IT_S, EC_WORD_SERIOUS, EC_WORD_AND, EC_WORD_IT_S, EC_MOVE(SMELLINGSALT), EC_WORD_EXCL},
         .speechLose = {EC_WORD_YOU_RE, EC_WORD_REALLY, EC_WORD_A, EC_WORD_TRAINER, EC_WORD_EXCITING, EC_WORD_EXCL},
         .monSet = gSlateportBattleTentTrainerMons_Janae
     },
@@ -1669,7 +1669,7 @@ const struct BattleFrontierTrainer gVerdanturfBattleTentTrainers[NUM_BATTLE_TENT
         .trainerName = _("FLEUR"),
         .speechBefore = {EC_WORD_IT_S, EC_WORD_BORING, EC_WORD_WONDER, EC_WORD_BE, EC_WORD_AN, EC_WORD_IDOL},
         .speechWin = {EC_WORD_A, EC_WORD_FIGHTING, EC_WORD_IT_S, EC_EMPTY_WORD, EC_WORD_EXCITING, EC_WORD_EXCL},
-        .speechLose = {EC_WORD_IT_S, EC_MOVE(SMELLING_SALT), EC_WORD_OF, EC_EMPTY_WORD, EC_WORD_LOSE, EC_WORD_EXCL},
+        .speechLose = {EC_WORD_IT_S, EC_MOVE(SMELLINGSALT), EC_WORD_OF, EC_EMPTY_WORD, EC_WORD_LOSE, EC_WORD_EXCL},
         .monSet = gVerdanturfBattleTentTrainerMons_Caitlyn
     },
     [VERDANTURF_TENT_TRAINER_DESIREE] = {
