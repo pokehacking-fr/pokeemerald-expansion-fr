@@ -3763,9 +3763,6 @@ void ExpandBattleTextBuffPlaceholders(const u8 *src, u8 *dst)
         {
         case B_BUFF_STRING: // battle string
             hword = T1_READ_16(&src[srcID + 1]);
-            // TODO(french): Check what this does exactly...
-            if (hword == STRINGID_STATSHARPLY || hword == STRINGID_STATHARSHLY)
-                srcID += 3;
             StringAppend(dst, gBattleStringsTable[hword]);
             srcID += 3;
             break;
