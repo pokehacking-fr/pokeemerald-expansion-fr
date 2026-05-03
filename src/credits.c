@@ -1285,7 +1285,7 @@ static void DrawLetterMapTiles(const u8 baseTiles[], u8 baseX, u8 baseY, u16 off
 */
 static void DrawTheEnd(u16 offset, u16 palette)
 {
-    LZ77UnCompVram(gCreditsCopyrightEnd_Gfx, (void *)(VRAM + offset));
+    DecompressDataWithHeaderVram(gCreditsCopyrightEnd_Tilemap, (void *)(VRAM + offset));
 }
 
 #define sState data[0]
